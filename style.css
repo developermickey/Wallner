@@ -55,7 +55,7 @@ html, body {
     margin-right: auto;
   }
   .swiper-slide h4 {
-    font-size: 16px;
+    font-size: 14px;
     text-align: left;
     padding: 0px 10px;
     color: #0c2808;
@@ -157,7 +157,7 @@ html, body {
   margin-right: auto;
 }
 .page2sec .swiper-slide h4 {
-  font-size: 16px;
+  font-size: 14px;
   text-align: left;
   padding: 0px 10px;
   color: #0c2808;
@@ -231,7 +231,7 @@ html, body {
   margin-right: auto;
 }
 .page2sec2 .swiper-slide h4 {
-  font-size: 16px;
+  font-size: 14px;
   text-align: left;
   padding: 0px 10px;
   color: #0c2808;
@@ -305,4 +305,34 @@ html, body {
   background-color: #0d2808;
   width: 100%;
   height: 30vh;
+}
+.col-md-4 h5 {
+  text-align: center;
+}
+.page5 {
+  width: 100%;
+  height: 50vh;
+  background-color: #eff6e7;
+}
+.section4 {
+  background-color: #eff6e7;
+}
+.section5 {
+  width: 100%;
+    height: 50vh;
+    background-image: url(./img/grass.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.footer {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./img/footes.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+.demos {
+border-radius: 20px 0px 20px 0px;
+border: 2px solid #0c2808;
 }
