@@ -348,3 +348,108 @@ border: 2px solid #0c2808;
     justify-content: center;
     align-items: center;
 }
+
+/* Shop page start */
+
+.full-page {
+  width: 100%;
+  height: auto;
+  background-image: url(./page2.png);
+  background-size: cover;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.label-one ul {
+  padding-left: 0px;
+  list-style: none;
+  text-align: left;
+  padding-bottom: 0px;
+}
+.label-one ul {
+  padding-left: 0px;
+  list-style: none;
+  text-align: left;
+  padding-bottom: 0px;
+}
+
+.label-one ul li {
+  background-color: #eff6e7;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 0;
+}
+.label-one ul li a {
+  color: #000;
+  display: block;
+  /* align-items: center; */
+  /* justify-content: space-between; */
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px;
+  position: relative;
+}
+.label-one ul li a .fa {
+    position: absolute;
+    right: 10px;
+    top: 14px;
+}
+.label-one input[type=checkbox] {
+  position: relative;
+	border: 2px solid #000;
+	border-radius: 2px;
+	background: none;
+	cursor: pointer;
+	line-height: 0;
+	margin: 0 .6em 0 0;
+	outline: 0;
+	padding: 0 !important;
+	vertical-align: text-top;
+	height: 20px;
+	width: 20px;
+	-webkit-appearance: none;
+  opacity: .5;
+}
+
+.label-one input[type=checkbox]:hover {
+  opacity: 1;
+}
+
+.label-one input[type=checkbox]:checked {
+  background-color: #000;
+  opacity: 1;
+}
+
+.label-one input[type=checkbox]:before {
+  content: '';
+  position: absolute;
+  right: 50%;
+  top: 50%;
+  width: 4px;
+  height: 10px;
+  border: solid #FFF;
+  border-width: 0 2px 2px 0;
+  margin: -1px -1px 0 -1px;
+  transform: rotate(45deg) translate(-50%, -50%);
+  z-index: 2;
+}
+.label-one ul {
+  padding-left: 0px;
+  list-style: none;
+  text-align: left;
+  padding-bottom: 0px;
+}
+.label-one ul ul li {
+  background-color: #ffffff;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 0;
+}
+.label-one ul ul li a {
+  padding: 8px 10px 10px 10px;
+  font-size: 14px;
+}
+.shop-section {
+  padding: 40px 0px 50px;
+}
