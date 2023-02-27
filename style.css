@@ -765,3 +765,100 @@ border: 2px solid #0c2808;
   content: "\f053";
   font-size: 23px;
 }
+.page4.page-extra-remove .row {
+  max-width: 880px;
+  margin: 0 auto;
+}
+.page4.page-extra-remove {
+  height: auto;
+  padding: 100px 0px;
+}
+.page5.page-extra-remove {
+  height: auto;
+}
+.page5.page-extra-remove .row {
+  align-items: center;
+}
+.page5.page-extra-remove {
+  height: auto;
+  padding: 50px 0px;
+}
+.product-warrper .row {
+  justify-content: center;
+}
+.grass-section {
+  padding: 100px;
+  background-size: contain;
+  box-shadow: inset 0px 8px 9px 0px #00000052;
+}
+.form-warrper .page6 {
+  height: auto;
+  padding: 120px 0px 80px;
+  margin-top: -20px;
+}
+.main-footer {
+  padding: 120px 0px 30px;
+  background-color: #eff6e7;
+}
+.navigation-footer {
+  padding-top: 50px;
+}
+.fomr-part button {
+  margin-top: 30px !important;
+  background-color: #64a507;
+  padding: 10px 30px;
+  color: #fff;
+  border-radius: 10px;
+  display: inline-block;
+  border: 0px;
+}
+.fomr-part {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+.top-text-form {
+  text-align: center;
+  padding-bottom: 40px;
+}
+.fomr-part input {
+  padding: 10px;
+  color: #000000;
+}
+.fomr-part input::placeholder{
+  color: #000000;
+}
+.fomr-part label {
+  color: #fff;
+  font-size: 20px;
+  padding-left: 5px;
+}
+
+.fomr-part input#marketing {
+  margin-top: 20px;
+  display: inline-block;
+  color: #ffffff;
+}
+
+@media (max-width:767px){
+
+  .product-featured-image { 
+    grid-template-columns: 20% 80%;
+}
+.product-title {
+  padding-left: 0;
+  padding-top: 30px;
+}
+.view-button-data button {
+  padding: 10px 26px;
+}
+.slick-prev {
+  left: 0;
+  z-index: 1;
+}
+.slick-next {
+  right: 0;
+}
+
+}
