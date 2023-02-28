@@ -943,4 +943,95 @@ border: 2px solid #0c2808;
   background-repeat: no-repeat;
   object-fit: cover;
 }
+.main-footer {
+  padding: 40px 0px 30px;
+  background-color: #eff6e7;
+}
+.textdemo {
+  width: 100% !important;
+}
+.textdemo h5 {
+  width: 100% !important;
+  text-align: center;
+}
+.textdemo p {
+  width: 100% !important;
+  text-align: center;
+}
+.iconss {
+  margin-bottom: 25px;
+}
+.headingnew {
+  font-size: 18px;
+  text-align: center;
+}
+.textp {
+  font-size: 14px;
+  text-align: center;
+  padding: 0px 0px;
+}
+.textsmall {
+  font-size: 14px;
+  text-align: center;
+  font-weight: 700;
+  padding: 0px 10px;
+  display: block;
+ 
+}
+#page2 {
+
+  padding-top: 50%;
+
+}
+#page2 .page2sec {
+  padding-bottom: 80px;
+}
+#page2 .page2sec h2.text-dark, #page2 .page2sec2 h2.text-dark {
+  text-align: center;
+  font-size: 25px;
+}
+header.d-flex.flex-wrap.align-items-center.justify-content-center.justify-content-md-between.mb-2.mt-4 {
+  display: none !important;
+}
+}
+
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }
