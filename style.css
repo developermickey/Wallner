@@ -902,6 +902,18 @@ border: 2px solid #0c2808;
 .mobilemunu {
   display: none !important;
 }
+.slick-prev:before {
+    font-family: FontAwesome;
+    font-weight: 400;
+    content: "\f053";
+    font-size: 23px;
+}
+.slick-next:before {
+    font-family: FontAwesome;
+    font-weight: 400;
+    content: "\f054";
+    font-size: 23px;
+}
 
 
 @media (max-width:767px){
@@ -981,9 +993,7 @@ border: 2px solid #0c2808;
  
 }
 #page2 {
-
-  padding-top: 50%;
-
+  padding-top: 170px;
 }
 #page2 .page2sec {
   padding-bottom: 80px;
