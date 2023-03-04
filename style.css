@@ -1012,3 +1012,12 @@ header.d-flex.flex-wrap.align-items-center.justify-content-center.justify-conten
   font-size: 16px;
 }
 }
+.searchdemo {
+  position: relative;
+  border-radius: 5px;
+}
+.fasearchs {
+  position: absolute !important;
+  top: 3px;
+  right: 0;
+}
