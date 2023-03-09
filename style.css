@@ -5,8 +5,9 @@
 }
 html, body {
     width: 100%;
-    height: 100%;
+    height: auto;
 }
+
 #main {
     width: 100%;
     height: 100%;
@@ -31,7 +32,24 @@ html, body {
 .searchdemo .form-control:focus {
   box-shadow:none !important;
 }
+.details-login svg.bi.bi-person {
+  position: relative;
+  top: 2px;
+}
 
+.details-login svg {
+  height: 26px;
+  width: 26px;
+  fill: #6d952a;
+}
+.details-login a {
+  display: inline-flex;
+  margin-left: 8px;
+  align-items: center;
+}
+.main-title h3 {
+  font-family: 'Cooper';
+}
 .searchdemo i.fa.fa-search {
   font-size: 18px;
   color: #6d9515;
@@ -89,6 +107,7 @@ html, body {
 #page2 .page2sec h2.text-dark, #page2 .page2sec2 h2.text-dark {
   text-align: left;
   font-size: 25px;
+  font-family: 'Cooper';
 }
 #page2 .page2sec {
   padding-bottom: 120px;
@@ -435,19 +454,30 @@ html, body {
 border-radius: 20px 0px 20px 0px;
 border: 2px solid #0c2808;
 }
+.view-button-data button svg {
+  position: relative;
+  top: -2px;
+  left: -3px;
+}
 .page6 {
   width: 100%;
   height: 100vh;
-  background-image: url(./lastsection.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-top: 30%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  background-image: url(./img/newnewsletter-gras-bg.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-position: top center;
+  background-size: cover;
 }
-
+.form-warrper {
+  padding-top: 46px;
+  background: linear-gradient(180deg, rgba(255,255,255,1) 23%, rgba(239,246,231,1) 23%);
+  box-shadow: inset 1px 12px 11px 0px #00000017;
+}
 /* Shop page start */
 
 .full-page {
@@ -907,7 +937,7 @@ border: 2px solid #0c2808;
 }
 .form-warrper .page6 {
   height: auto;
-  padding: 120px 0px 80px;
+  padding: 116px 0px 80px;
   margin-top: -20px;
 }
 .main-footer {
